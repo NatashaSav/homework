@@ -94,9 +94,6 @@ class Lector(Mentor):
         avg = "Average grade for lectures: {}".format(self.average_grade_for_lectures())
         return "{}\n{}\n{}".format(first_name, last_name, avg)
 
-    def average_mark_for_lecture_all_lector_within_course(self, course):
-        pass
-
 
 best_student = Student('Ruoy', 'Eman', 'woman')
 best_student.add_marks('Python', 9)
